@@ -1,0 +1,25 @@
+{
+  "name": "@distdns/zero",
+  "version": "0.1.1",
+  "description": "dWeb Library For Zero-Configuration Network Revelation For The Distributed Web.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "dependencies": {
+    "common": "^0.2.5",
+    "request": "^2.48.0",
+    "root": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
